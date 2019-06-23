@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  background: #cccccc;
+}
+
+.header {
+  padding: 30px;
+  background: #ece3ed;
+}
+.header-title {
+  font-family: Oswald;
+}
+.header-subtitle {
+  font-family: Oswald;
+}
+#img-div {
+  background: #fff;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  border: 5px solid #e3e7ed;
+  border-radius: 4px;
+}
+#img-caption {
+  padding: 15px;
+  font-family: Oswald;
+}
+.tribute-info-title {
+  font-family: Oswald;
+  font-weight: bold;
+  padding: 20px;
+}
+
+ul {
+  max-width: 700px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+ul li {
+  text-align: justify;
+  padding: 10px;
+  list-style-type: none;
+}
+
+li:nth-child(odd) {
+  background: #ece3ed;
+  border-bottom: 5px solid #e3e7ed;
+}
+li:nth-child(even) {
+  background: white;
+  border-bottom: 5px solid #e3e7ed;
+}
+
+blockquote {
+  font-family: Oswald;
+  padding: 30px;
+  text-align: center;
+  margin: auto;
+  max-width: 700px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  background: #e3e7ed;
+  font-size: 20px;
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  padding: 10px;
+  background: #e3e7ed;
+}
+strong {
+  font-family: Oswald;
+}
+@media (max-width: 340px) {
+  .header-title {
+    font-size: 20px;
+  }
+  .header-subtitle {
+    font-size: 15px;
+  }
+}
